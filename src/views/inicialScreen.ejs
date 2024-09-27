@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela Inicial</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .container-box {
+            width: 400px;
+            height: 400px; 
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            border: 1px solid #555353;
+            background-color: #f8f9fa;
+            margin: 20px; 
+            border-radius: 5px;
+            padding: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .content {
+            flex-grow: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            margin-bottom: 10px; 
+        }
+        .info-area {
+            height: 100px; 
+            border-top: 1px solid #000000; 
+            padding: 10px;
+            text-align: left; 
+        }
+        .footer {
+            text-align: center;
+        }
+        .page-title {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .btn-leia-mais:hover {
+            background-color: #66b3ff; 
+            color: rgb(82, 82, 82);
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="page-title">Últimos posts do blog</h1>
+        <div class="row">
+            <!-- Primeiro Container -->
+            <div class="col-md-4">
+                <div class="container-box">
+                    <div class="content">
+                        <h1>400 x 200</h1>
+                    </div>
+                    <div class="info-area">
+                        <p>Aprofundamento no TypeScript</p>
+                    </div>
+                    <div class="footer">
+                        <h4>Em breve...</h4>
+                        <p>Descrição do post...</p>
+                        <button class="btn btn-primary btn-leia-mais">Leia mais</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Repetir o mesmo padrão para os outros contêineres -->
+            <div class="col-md-4">
+                <div class="container-box">
+                    <div class="content">
+                        <h1>400 x 200</h1>
+                    </div>
+                    <div class="info-area">
+                        <p>Como utilizar o Docker.</p>
+                    </div>
+                    <div class="footer">
+                        <h4>Em breve...</h4>
+                        <p>Descrição do post...</p>
+                        <button class="btn btn-primary btn-leia-mais">Leia mais</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="container-box">
+                    <div class="content">
+                        <h1>400 x 200</h1>
+                    </div>
+                    <div class="info-area">
+                        <p>Voce conhece o MySQL?</p>
+                    </div>
+                    <div class="footer">
+                        <h4>Em breve...</h4>
+                        <p>Descrição do post...</p>
+                        <button class="btn btn-primary btn-leia-mais">Leia mais</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="container-box">
+                    <div class="content">
+                        <h1>400 x 200</h1>
+                    </div>
+                    <div class="info-area">
+                        <p>Como subir um projeto no GitHub?</p>
+                    </div>
+                    <div class="footer">
+                        <h4>Em breve...</h4>
+                        <p>Descrição do post...</p>
+                        <button class="btn btn-primary btn-leia-mais">Leia mais</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="container-box">
+                    <div class="content">
+                        <h1>400 x 200</h1>
+                    </div>
+                    <div class="info-area">
+                        <p>Quais projetos fazer com MySQL, Docker e TypeScript?</p>
+                    </div>
+                    <div class="footer">
+                        <h4>Em breve...</h4>
+                        <p>Descrição do post...</p>
+                        <button class="btn btn-primary btn-leia-mais">Leia mais</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="container-box">
+                    <div class="content">
+                        <h1>400 x 200</h1>
+                    </div>
+                    <div class="info-area">
+                        <p>Como me organizar com o tempo de entrega de trabalhos?</p>
+                    </div>
+                    <div class="footer">
+                        <h4>Em breve...</h4>
+                        <p>Descrição do post...</p>
+                        <button class="btn btn-primary btn-leia-mais">Leia mais</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
